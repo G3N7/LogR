@@ -9,8 +9,8 @@ LogR is built with [TypeScript](typescriptlang.org) and as such there are a opti
 * [LogR.js](https://github.com/G3N7/logR/blob/master/logR.Build/logR.js) - if you would like to use the js directly.
 
 ###Examples###
-`logR.trace('Some message');`
-`logR.info('Some message');`
-`logR.warn('Some message');`
-`logR.error('Some message');`
-`logR.custom('Some message');`
+* Trace - `logR.trace('Some message');`
+* Info - `logR.info('Some message');`
+* Warn - `logR.warn('Some message');`
+* Error - `logR.error('Some message');`
+* Custom - `logR.custom('Some message');`
