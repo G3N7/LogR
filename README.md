@@ -1,4 +1,4 @@
-logR
+LogR
 ====
 Simple JS Console Logging Framework
 
