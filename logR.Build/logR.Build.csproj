@@ -65,11 +65,10 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-    <TypeScriptCompile Include="LogR.ts" />
-    <TypeScriptCompile Include="LogRTests.ts" />
-    <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
+    <TypeScriptCompile Include="LogRTests.ts" />    
   </ItemGroup>
-  <ItemGroup Condition="'$(Configuration)' == 'Release'">
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="LogR.ts" />
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
