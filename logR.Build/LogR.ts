@@ -14,7 +14,7 @@
 	TraceHeaders: string;
 	InfoHeaders: string;
 
-
+	//Output Log Levels
 	WarnOn: boolean;
 	ErrorOn: boolean;
 	TraceOn: boolean;

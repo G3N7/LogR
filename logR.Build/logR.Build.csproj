@@ -65,7 +65,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-    <TypeScriptCompile Include="LogRTests.ts" />    
+    <TypeScriptCompile Include="LogRTests.ts" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
