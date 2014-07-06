@@ -93,16 +93,20 @@ var LogR = (function () {
 })();
 
 var logConfig = {
+    //General Presentation
     FontFamily: 'DejaVu Sans Mono',
     PieceOfFlair: '-=~=-',
+    //Log Colors
     WarnColor: '#ffd894',
     ErrorColor: '#ff9494',
     TraceColor: '#94ffb0',
     InfoColor: '#94fdff',
+    //Log Headers
     WarnHeaders: 'WARN',
     ErrorHeaders: 'ERROR',
     TraceHeaders: 'TRACE',
     InfoHeaders: 'INFO',
+    //Configure Logging
     WarnOn: true,
     ErrorOn: true,
     TraceOn: true,
@@ -112,30 +116,4 @@ var logConfig = {
 };
 
 var logR = new LogR(logConfig);
-describe('logR - open console to see output', function () {
-    describe('trace()', function () {
-        it('writes to the console', function () {
-            logR.trace('Test Trace Log');
-        });
-    });
-    describe('info()', function () {
-        it('writes to the console', function () {
-            logR.info('Test Info Log');
-        });
-    });
-    describe('warn()', function () {
-        it('writes to the console', function () {
-            logR.warn('Test Warn Log');
-        });
-    });
-    describe('error()', function () {
-        it('writes to the console', function () {
-            logR.error('Test Error Log');
-        });
-    });
-    describe('custom()', function () {
-        it('writes to the console', function () {
-            logR.custom('Test Custom, allows you to provide what ever formatting you would like too.');
-        });
-    });
-});
+//# sourceMappingURL=LogR.js.map
