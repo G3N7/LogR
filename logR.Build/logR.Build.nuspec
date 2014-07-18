@@ -14,7 +14,7 @@
     <tags>typescript javascript logging</tags>
   </metadata>
   <files>
-  	<file src="output\LogR.js" target="Scripts\" />
-  	<file src="output\LogR.d.ts" target="Scripts\typings\LogR\" />
+  	<file src="output\LogR.js" target="Scripts" />
+  	<file src="output\LogR.d.ts" target="Scripts\typings\LogR" />
   </files>
 </package>
