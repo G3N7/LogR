@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LogR</id>
+    <version>1.0.0.0</version>
+    <title>LogR</title>
+    <authors>Mitch Ferrer</authors>
+    <owners>Mitch Ferrer</owners>
+    <licenseUrl>https://github.com/G3N7/LogR/blob/master/LICENSE.html</licenseUrl>
+    <projectUrl>https://github.com/G3N7/LogR</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple Logger for javascript</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>typescript javascript logging</tags>
+  </metadata>
+  <files>
+  	<file src="output\LogR.js" target="Scripts\" />
+  	<file src="output\LogR.d.ts" target="Scripts\typings\LogR\" />
+  </files>
+</package>
