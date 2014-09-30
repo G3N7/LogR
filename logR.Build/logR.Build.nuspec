@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>LogR</id>
-    <version>1.0.1.0</version>
+    <version>1.0.2.0</version>
     <title>LogR</title>
     <authors>Mitch Ferrer</authors>
     <owners>Mitch Ferrer</owners>
@@ -14,7 +14,7 @@
     <tags>typescript javascript logging</tags>
   </metadata>
   <files>
-  	<file src="output\LogR.js" target="Scripts" />
-  	<file src="output\LogR.d.ts" target="Scripts\typings\LogR" />
+  	<file src="output\LogR.js" target="content\scripts" />
+  	<file src="output\LogR.d.ts" target="content\scripts" />
   </files>
 </package>

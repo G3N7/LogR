@@ -30,6 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="logR.Build.nuspec" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
