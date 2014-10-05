@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>LogR</id>
+    <id>LogR.js</id>
     <version>1.0.2.0</version>
     <title>LogR</title>
     <authors>Mitch Ferrer</authors>
